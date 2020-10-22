@@ -1,1 +1,1 @@
-# js-algo - Algorithms in Javascript 
+# Algorithms in Javascript 
