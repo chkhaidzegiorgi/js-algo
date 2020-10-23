@@ -13,7 +13,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  local_dir: coverage
+  local_dir: coverage/lcov-report
   github-token: $GITHUB_TOKEN
   on: 
     branch: main
