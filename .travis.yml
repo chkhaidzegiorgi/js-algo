@@ -1,5 +1,4 @@
 os:
-  - linux
   - osx
 dist: trusty
 language: node_js
