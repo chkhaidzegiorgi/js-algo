@@ -1,7 +1,7 @@
 import BubbleSort from '../bubble-sort'
-import { 
+import {
     SortTester
- } from '../../sort.tester';
+} from '../../sort.tester';
 
 
 describe('Bubble Sort', () => {
@@ -13,5 +13,8 @@ describe('Bubble Sort', () => {
         SortTester.testNegativeNumbersSort(BubbleSort);
     });
 
-  
+    it('should do stable sorting', () => {
+        SortTester.testSortStability(BubbleSort);
+    });
+
 });

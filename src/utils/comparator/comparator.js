@@ -8,3 +8,7 @@ function compare(a, b) {
 export function lessThan(a, b) {
     return compare(a, b) < 0;
 }
+
+export function lengthLessThan(a, b) {
+    return compare(a.length, b.length) < 0;
+}
