@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:import/recommended"
+    ],
+    "plugins": [
+        "jest",
+        "import"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "class-methods-use-this": "off",
+        "arrow-body-style": "off",
+
+        "import/no-extraneous-dependencies": "error",
+        "import/unambiguous": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": [
+                    "src"
+                ]
+            }
+        }
+    },
+    "overrides": [
+        {
+            "files": "scripts/**",
+            "rules": {
+                "no-console": "off"
+            }
+        }
+    ]
+}

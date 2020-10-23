@@ -1,0 +1,49 @@
+{
+  "name": "js-algo",
+  "version": "1.0.0",
+  "description": "Algorithms and Data-Structures in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint ./src/*",
+    "test": "jest",
+    "ci": "npm run lint && npm run test -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chkhaidzegiorgi/js-algo.git"
+  },
+  "keywords": [
+    "algorithms",
+    "javascript",
+    "data-structures",
+    "js",
+    "algo",
+    "computer-science",
+    "cs",
+    "algorithm",
+    "javascript-algorithms",
+    "sorting-algorithms",
+    "graph",
+    "tree",
+    "interview",
+    "interview-preparation"
+  ],
+  "author": "Giorgi Chkhaidze (https://www.linkedin.com/in/kenjj/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chkhaidzegiorgi/js-algo/issues"
+  },
+  "homepage": "https://github.com/chkhaidzegiorgi/js-algo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@types/jest": "^26.0.15",
+    "eslint": "^7.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
+  },
+  "dependencies": {}
+}
