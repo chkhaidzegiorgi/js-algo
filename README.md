@@ -9,5 +9,5 @@
     - [Merge Sort](src/algorithms/sorting/merge-sort)
 
 
-* [Medium Articles](https://kenjj.medium.com)
+# [Medium Articles](https://kenjj.medium.com)
     
