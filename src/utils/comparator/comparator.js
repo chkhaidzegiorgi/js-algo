@@ -9,6 +9,14 @@ export function lessThan(a, b) {
     return compare(a, b) < 0;
 }
 
+export function lessThanOrEqual(a, b) {
+    return compare(a, b) <= 0;
+}
+
 export function lengthLessThan(a, b) {
     return compare(a.length, b.length) < 0;
+}
+
+export function lengthLessThanOrEqual(a, b) {
+    return compare(a.length, b.length) <= 0;
 }

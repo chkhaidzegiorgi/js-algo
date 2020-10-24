@@ -4,6 +4,5 @@ export default class Sort {
     }
 
     sort() {
-        throw new Error('You have to implement the method!');
     }
 }

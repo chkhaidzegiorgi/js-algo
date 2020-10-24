@@ -18,5 +18,5 @@ The Bubble Sort fits in the category of Exchange Sorts due to the manner in whic
 
 ## References
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
 
