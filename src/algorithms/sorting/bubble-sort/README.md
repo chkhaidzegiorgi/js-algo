@@ -1,4 +1,4 @@
-# Bubble Sort
+# Bubble Sort - [Medium](https://kenjj.medium.com/understanding-bubble-sort-algorithm-in-javascript-15d0ddb1fee3)
 
 ![N|Solid](../../../../assets/bubble-sort.gif)
 
