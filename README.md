@@ -6,6 +6,7 @@
 
 * [Sorting](src/algorithms/sorting)
     - [Bubble Sort](src/algorithms/sorting/bubble-sort)
+    - [Insertion Sort](src/algorithms/sorting/insertion-sort)
     - [Merge Sort](src/algorithms/sorting/merge-sort)
 
 
