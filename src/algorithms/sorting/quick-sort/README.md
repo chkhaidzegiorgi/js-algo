@@ -17,6 +17,8 @@ There are many different versions of quickSort that pick pivot in different ways
 - Pick a random element as pivot.
 - Pick median as pivot.
 
+![N|Solid](../../../../assets/lomuto-view.png)
+
 # Performance
 
 | Name                  | Best            | Average             | Worst               | Memory    |
