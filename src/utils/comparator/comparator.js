@@ -9,6 +9,10 @@ export function lessThan(a, b) {
     return compare(a, b) < 0;
 }
 
+export function greaterThan(a, b) {
+    return compare(a, b) > 0;
+}
+
 export function lessThanOrEqual(a, b) {
     return compare(a, b) <= 0;
 }
